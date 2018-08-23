@@ -1,10 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Rule extends Component {
-    state = {  }
-    render() { 
-        return ( {} );
-    }
+const Rule = () => {
+    return {
+        name: "rule-name",
+        filetype: "",
+        target: "file",
+        type: "simple-text",
+        category: "jee",
+        advice: "",
+        recipes: [],
+        patterns: []
+    };
 }
  
 export default Rule;

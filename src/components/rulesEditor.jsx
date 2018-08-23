@@ -9,16 +9,7 @@ import { Input } from "pivotal-ui/react/inputs";
 import Rule from "./rule";
 import Recipe from "./recipe";
 
-let rule = {
-  name: "rule-name",
-  filetype: "",
-  target: "file",
-  type: "simple-text",
-  category: "jee",
-  advice: "",
-  recipes: [],
-  patterns: []
-};
+let rule = new Rule();
 
 class RulesEditor extends Component {
   state = {
